@@ -28,4 +28,11 @@ extension UIViewController {
             let controller = Self(nibName: String(describing: self), bundle: nil)
              return controller
         }
+    func presentInFullScreen(_ viewController: UIViewController,presentation:UIModalPresentationStyle = .fullScreen,transition:UIModalTransitionStyle = .coverVertical,
+                             animated: Bool,
+                             completion: (() -> Void)? = nil) {
+        viewController.modalPresentationStyle = .fullScreen
+        viewController.modalTransitionStyle = transition
+        present(viewController, animated: animated, completion: completion)
+    }
 }

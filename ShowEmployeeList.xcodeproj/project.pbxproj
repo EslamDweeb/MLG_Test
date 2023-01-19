@@ -25,10 +25,7 @@
 		C32B5ADB297886F1006CDB3B /* UIView_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5ADA297886F1006CDB3B /* UIView_ext.swift */; };
 		C32B5AE12978A06C006CDB3B /* AddEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5ADF2978A06C006CDB3B /* AddEmployeeVC.swift */; };
 		C32B5AE22978A06C006CDB3B /* AddEmployeeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32B5AE02978A06C006CDB3B /* AddEmployeeVC.xib */; };
-		C32B5AF22978A14B006CDB3B /* BlackBorderBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5AE82978A14B006CDB3B /* BlackBorderBtn.swift */; };
-		C32B5AF32978A14B006CDB3B /* GradButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5AE92978A14B006CDB3B /* GradButton.swift */; };
 		C32B5AF42978A14B006CDB3B /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5AEA2978A14B006CDB3B /* BaseTextField.swift */; };
-		C32B5AF52978A14B006CDB3B /* PasswordTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5AEB2978A14B006CDB3B /* PasswordTxtField.swift */; };
 		C32B5AF62978A14B006CDB3B /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B5AEC2978A14B006CDB3B /* BaseButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,10 +49,7 @@
 		C32B5ADA297886F1006CDB3B /* UIView_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_ext.swift; sourceTree = "<group>"; };
 		C32B5ADF2978A06C006CDB3B /* AddEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeVC.swift; sourceTree = "<group>"; };
 		C32B5AE02978A06C006CDB3B /* AddEmployeeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEmployeeVC.xib; sourceTree = "<group>"; };
-		C32B5AE82978A14B006CDB3B /* BlackBorderBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBorderBtn.swift; sourceTree = "<group>"; };
-		C32B5AE92978A14B006CDB3B /* GradButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradButton.swift; sourceTree = "<group>"; };
 		C32B5AEA2978A14B006CDB3B /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
-		C32B5AEB2978A14B006CDB3B /* PasswordTxtField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTxtField.swift; sourceTree = "<group>"; };
 		C32B5AEC2978A14B006CDB3B /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,10 +182,7 @@
 		C32B5AE72978A14B006CDB3B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C32B5AE82978A14B006CDB3B /* BlackBorderBtn.swift */,
-				C32B5AE92978A14B006CDB3B /* GradButton.swift */,
 				C32B5AEA2978A14B006CDB3B /* BaseTextField.swift */,
-				C32B5AEB2978A14B006CDB3B /* PasswordTxtField.swift */,
 				C32B5AEC2978A14B006CDB3B /* BaseButton.swift */,
 			);
 			path = Views;
@@ -276,10 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32B5AF22978A14B006CDB3B /* BlackBorderBtn.swift in Sources */,
 				C32B5AAC297849A8006CDB3B /* HomeVC.swift in Sources */,
 				C32B5AC029784B18006CDB3B /* EmployeeCell.swift in Sources */,
-				C32B5AF32978A14B006CDB3B /* GradButton.swift in Sources */,
 				C32B5AA8297849A8006CDB3B /* AppDelegate.swift in Sources */,
 				C32B5ADB297886F1006CDB3B /* UIView_ext.swift in Sources */,
 				C32B5AD2297875AE006CDB3B /* DepartmentLDB.swift in Sources */,
@@ -289,7 +278,6 @@
 				C32B5AF42978A14B006CDB3B /* BaseTextField.swift in Sources */,
 				C32B5AAA297849A8006CDB3B /* SceneDelegate.swift in Sources */,
 				C32B5AE12978A06C006CDB3B /* AddEmployeeVC.swift in Sources */,
-				C32B5AF52978A14B006CDB3B /* PasswordTxtField.swift in Sources */,
 				C32B5AD4297876FC006CDB3B /* Department.swift in Sources */,
 				C32B5AD629788542006CDB3B /* UIViewController_Ext.swift in Sources */,
 				C32B5AD92978861A006CDB3B /* TableView_Ext.swift in Sources */,

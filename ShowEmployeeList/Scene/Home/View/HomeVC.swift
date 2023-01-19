@@ -44,7 +44,7 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func addNewEmployee(_ sender: Any) {
-        
+        self.presentInFullScreen(AddEmployeeVC.loadController(), animated: true)
     }
 }
 

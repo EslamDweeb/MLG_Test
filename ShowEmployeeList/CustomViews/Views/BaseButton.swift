@@ -13,7 +13,7 @@ class BaseButton:UIButton {
         didSet {
             guard let btnTitle else{return}
             setTitle(btnTitle, for: .normal)
-            self.titleLabel?.font = Fonts.fontMedium(size: FontSize.fontSmall)
+            self.titleLabel?.font = .systemFont(ofSize: 14, weight: .bold)
         }
     }
     override init(frame: CGRect) {

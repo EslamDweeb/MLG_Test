@@ -23,19 +23,22 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Employee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lx9-Zi-66Y">
-                    <rect key="frame" x="117.00000000000001" y="54.000000000000007" width="156.33333333333337" height="20.333333333333336"/>
+                    <rect key="frame" x="117.00000000000001" y="7" width="156.33333333333337" height="20.333333333333329"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                     <color key="textColor" white="0.0" alpha="0.90690370269999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXo-3o-3Bs">
-                    <rect key="frame" x="20" y="47" width="67" height="34.333333333333343"/>
+                    <rect key="frame" x="20" y="0.0" width="67" height="34.333333333333336"/>
                     <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Close"/>
+                    <connections>
+                        <action selector="closeBtnTapped:" destination="-1" eventType="touchUpInside" id="ykf-ap-Tj1"/>
+                    </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tbh-vs-Vzg">
-                    <rect key="frame" x="20" y="101.33333333333331" width="350" height="196"/>
+                    <rect key="frame" x="20" y="54.333333333333343" width="350" height="196"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJi-nx-ZjU" customClass="BaseTextField" customModule="ShowEmployeeList" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="350" height="34"/>
@@ -51,7 +54,7 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JDM-Zi-L7p" customClass="BaseTextField" customModule="ShowEmployeeList" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="54.000000000000014" width="350" height="34"/>
+                            <rect key="frame" x="0.0" y="54" width="350" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                             <userDefinedRuntimeAttributes>
@@ -61,7 +64,7 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Department" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HLY-1S-tY2" customClass="BaseTextField" customModule="ShowEmployeeList" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="108.00000000000001" width="350" height="33.999999999999986"/>
+                            <rect key="frame" x="0.0" y="108" width="350" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                             <userDefinedRuntimeAttributes>
@@ -84,7 +87,7 @@
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpp-Op-GlQ">
-                    <rect key="frame" x="40" y="327.33333333333331" width="310" height="40"/>
+                    <rect key="frame" x="40" y="280.33333333333331" width="310" height="40"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="zq7-A8-Os4"/>
